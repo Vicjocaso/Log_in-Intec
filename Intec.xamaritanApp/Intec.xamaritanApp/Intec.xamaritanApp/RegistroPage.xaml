@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Intec.xamaritanApp.RegistroPage">
+    <ContentPage.Content>
+        <Grid BackgroundColor="White" HorizontalOptions="Center" VerticalOptions="Center" Padding="11" RowDefinitions="auto,auto,auto,auto,auto">
+            <Image Source="Intec_Logo.png" Grid.Row="0"></Image>
+
+            <Entry x:Name="name" Placeholder="Name"  VerticalOptions="Center" Grid.Row="1"></Entry>
+            <Entry x:Name="Email"  Placeholder="Email" VerticalOptions="Center" Grid.Row="2"></Entry>
+            <Entry x:Name="Password" Placeholder="password" IsPassword="True" VerticalOptions="Center" Grid.Row="3"></Entry>
+            <Entry x:Name="ConfirPassword" Placeholder="ConfirnPassword" IsPassword="True"  VerticalOptions="Center" Grid.Row="4"></Entry>
+
+            <Button Text="Register" Grid.Row="5" Clicked="HomeP" TextColor="Red" BackgroundColor="White"></Button>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
