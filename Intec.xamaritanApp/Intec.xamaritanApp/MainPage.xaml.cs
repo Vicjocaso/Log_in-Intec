@@ -17,7 +17,15 @@ namespace Intec.xamaritanApp
 
         async private void Button_Clicked(object sender, EventArgs e)
         {
-           await DisplayAlert("Vacio", "", "ok");
+            if (string.IsNullOrEmpty(name.Text) || string.IsNullOrEmpty(password.Text))
+            {
+                await DisplayAlert("Campos", "Debe llenar los campos", "continuar");
+            }
+            else
+            {
+                await Navigation.PushAsync(new Intec.xamaritanApp.ProfilePage());
+                await DisplayAlert("Bienvenido", "Hola " + name.Text, "ok");
+            }
         }
 
         async private void Registro(object sender, EventArgs e)

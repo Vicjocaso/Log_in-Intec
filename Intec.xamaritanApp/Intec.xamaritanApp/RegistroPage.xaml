@@ -7,9 +7,9 @@
             <Image Source="Intec_Logo.png" Grid.Row="0"></Image>
 
             <Entry x:Name="name" Placeholder="Name"  VerticalOptions="Center" Grid.Row="1"></Entry>
-            <Entry x:Name="Email"  Placeholder="Email" VerticalOptions="Center" Grid.Row="2"></Entry>
-            <Entry x:Name="Password" Placeholder="password" IsPassword="True" VerticalOptions="Center" Grid.Row="3"></Entry>
-            <Entry x:Name="ConfirPassword" Placeholder="ConfirnPassword" IsPassword="True"  VerticalOptions="Center" Grid.Row="4"></Entry>
+            <Entry x:Name="email"  Placeholder="Email" VerticalOptions="Center" Grid.Row="2"></Entry>
+            <Entry x:Name="password" Placeholder="password" IsPassword="True" VerticalOptions="Center" Grid.Row="3"></Entry>
+            <Entry x:Name="confirPassword" Placeholder="ConfirnPassword" IsPassword="True"  VerticalOptions="Center" Grid.Row="4"></Entry>
 
             <Button Text="Register" Grid.Row="5" Clicked="HomeP" TextColor="Red" BackgroundColor="White"></Button>
         </Grid>
