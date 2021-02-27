@@ -1,11 +1,8 @@
 # Log_in-Intec
-
-![1](https://user-images.githubusercontent.com/54919154/108581896-6c5d8b80-7306-11eb-82cc-604317538b57.PNG)
-![2](https://user-images.githubusercontent.com/54919154/108581899-6e274f00-7306-11eb-941f-c8536fe1f82b.PNG)
-![3](https://user-images.githubusercontent.com/54919154/108581904-6ff11280-7306-11eb-8414-e0aa1ae837ff.PNG)
-![4](https://user-images.githubusercontent.com/54919154/108581907-72536c80-7306-11eb-9190-b0dcbb03f809.PNG)
-
-![Capture](https://user-images.githubusercontent.com/54919154/108581908-72536c80-7306-11eb-9574-469a53666fc6.PNG)
-# HomePage
-   ![image](https://user-images.githubusercontent.com/54919154/109372538-e9d15080-785e-11eb-9478-73fa10800770.png)
-
+![image](https://user-images.githubusercontent.com/54919154/109373065-a4fae900-7861-11eb-8615-2516f4d3d0f4.png)
+![image](https://user-images.githubusercontent.com/54919154/109373076-afb57e00-7861-11eb-975f-259fbb8a548c.png)
+![image](https://user-images.githubusercontent.com/54919154/109373088-b9d77c80-7861-11eb-98d0-b853a2c7b2cd.png)
+![image](https://user-images.githubusercontent.com/54919154/109373099-c2c84e00-7861-11eb-865e-80af25219a96.png)
+![image](https://user-images.githubusercontent.com/54919154/109373105-ccea4c80-7861-11eb-8953-60258c62ba99.png)
+![image](https://user-images.githubusercontent.com/54919154/109373111-d8d60e80-7861-11eb-9a50-fe9b453c752b.png)
+![image](https://user-images.githubusercontent.com/54919154/109373119-e12e4980-7861-11eb-8581-b29c36c3dfdb.png)
