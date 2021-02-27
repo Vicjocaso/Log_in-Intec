@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Intec.xamaritanApp.ProfilePage">
+             x:Class="Intec.xamaritanApp.ProfilePage"
+            xmlns:IntecXamarinApp="clr-namespace:Intec.xamaritanApp.Views">
   <!--Pages can be added as references or inline-->
-    <ContentPage Title="Home" IconImageSource="HomeIcon.png" />
+    <IntecXamarinApp:HomePage Title="Home" IconImageSource="HomeIcon.png" />
     <ContentPage Title="Profile" IconImageSource="ProfileIcon.png" />
     <ContentPage Title="Settings" IconImageSource="SettingIcon.png" />
 </TabbedPage>

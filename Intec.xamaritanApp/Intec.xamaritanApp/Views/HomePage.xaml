@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Intec.xamaritanApp.Views.HomePage">
+    <ContentPage.Content>
+        <Grid RowDefinitions="130,135,125" ColumnDefinitions="*,*" Margin="8" >
+            <Frame Grid.Row="0" Grid.Column="0">
+                <StackLayout >
+                    <Image Source="{Binding GradeMenuOption.Image}" HeightRequest="60"></Image>
+                    <Label Text="{Binding GradeMenuOption.Title}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HeightRequest="100" TextColor="Black" FontSize="Body" FontAttributes="Bold"></Label>
+                </StackLayout>
+            </Frame>
+            <Frame Grid.Row="0" Grid.Column="1">
+                <StackLayout >
+                    <Image Source="{Binding YouMenuOption.Image}" HeightRequest="60"></Image>
+                    <Label Text="{Binding YouMenuOption.Title}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HeightRequest="100" TextColor="Black" FontSize="Body" FontAttributes="Bold"></Label>
+                </StackLayout>
+            </Frame>
+            <Frame Grid.Row="1" Grid.Column="0">
+                <StackLayout >
+                    <Image Source="{Binding RecordMenuOption.Image}" HeightRequest="60"></Image>
+                    <Label Text="{Binding RecordMenuOption.Title}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HeightRequest="100" TextColor="Black" FontSize="Body" FontAttributes="Bold"></Label>
+                </StackLayout>
+            </Frame>
+            <Frame Grid.Row="1" Grid.Column="1">
+                <StackLayout >
+                    <Image Source="{Binding AssignmentMenuOption.Image}" HeightRequest="60"></Image>
+                    <Label Text="{Binding AssignmentMenuOption.Title}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HeightRequest="100" TextColor="Black" FontSize="Body" FontAttributes="Bold"></Label>
+                </StackLayout>
+            </Frame>
+            <Frame Grid.Row="2" Grid.Column="0">
+                <StackLayout >
+                    <Image Source="{Binding GpaMenuOption.Image}" HeightRequest="60"></Image>
+                    <Label Text="{Binding GpaMenuOption.Title}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HeightRequest="100" TextColor="Black" FontSize="Body" FontAttributes="Bold"></Label>
+                </StackLayout>
+            </Frame>
+            <Frame Grid.Row="2" Grid.Column="1">
+                <StackLayout >
+                    <Image Source="{Binding CoursesMenuOption.Image}" HeightRequest="60"></Image>
+                    <Label Text="{Binding CoursesMenuOption.Title}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HeightRequest="100" TextColor="Black" FontSize="Body" FontAttributes="Bold"></Label>
+                </StackLayout>
+            </Frame>
+        </Grid>
+            
+    </ContentPage.Content>
+</ContentPage>

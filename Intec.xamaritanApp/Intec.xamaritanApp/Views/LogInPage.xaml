@@ -7,11 +7,11 @@
         <Grid BackgroundColor="White" HorizontalOptions="Center" VerticalOptions="Center" Padding="11" RowDefinitions="auto,auto,auto,auto,auto">
             <Image Source="Intec_Logo.png" Grid.Row="1"></Image>
             
-            <Entry x:Name="name" Placeholder="Name"  VerticalOptions="Center" Grid.Row="2"></Entry>
-            <Entry x:Name="password" Placeholder="password" IsPassword="True" VerticalOptions="Center" Grid.Row="3"></Entry>
+            <Entry Text="{Binding Name}" Placeholder="Name"  VerticalOptions="Center" Grid.Row="2"></Entry>
+            <Entry Text="{Binding Password}" Placeholder="password" IsPassword="True" VerticalOptions="Center" Grid.Row="3"></Entry>
 
-            <Button Text="Login" Grid.Row="4" BackgroundColor="Red" Clicked="Button_Clicked" TextColor="White"></Button>
-            <Button Text="Register" Grid.Row="5" TextColor="Red" Clicked="Registro" BackgroundColor="White"></Button>
+            <Button Text="Login" Grid.Row="4" BackgroundColor="Red" Command="{Binding LoginCommand}" TextColor="White"></Button>
+            <Button Text="Register" Grid.Row="5" TextColor="Red" Command="{Binding RegisterCommand}" BackgroundColor="White"></Button>
         </Grid>
     </ContentPage.Content>
 
