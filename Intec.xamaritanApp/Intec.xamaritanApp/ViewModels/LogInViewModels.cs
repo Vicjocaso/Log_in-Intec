@@ -22,12 +22,12 @@ namespace Intec.xamaritanApp.ViewModels
         {
             if (string.IsNullOrEmpty(Name) || string.IsNullOrEmpty(Password))
             {
-                await App.Current.MainPage.DisplayAlert("Campos", "Debe llenar los campos", "continuar");
+                await App.Current.MainPage.DisplayAlert("Alert", "You must fill in the fields", "ok");
             }
             else
             {
                 await App.Current.MainPage.Navigation.PushAsync(new Intec.xamaritanApp.ProfilePage());
-                await App.Current.MainPage.DisplayAlert("Bienvenido", "Hola " + Name , "ok");
+                await App.Current.MainPage.DisplayAlert("Welcome", "Hello " + Name , "ok");
             }
         }
         async private void OnRegister()

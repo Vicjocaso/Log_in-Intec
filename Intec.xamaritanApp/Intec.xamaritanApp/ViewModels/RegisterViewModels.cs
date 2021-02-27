@@ -24,16 +24,16 @@ namespace Intec.xamaritanApp.ViewModels
         {
             if (string.IsNullOrEmpty(Name) || string.IsNullOrEmpty(Password) || string.IsNullOrEmpty(ConfirmPassword) || string.IsNullOrEmpty(Email))
             {
-                await App.Current.MainPage.DisplayAlert("Campos", "Debe llenar los campos", "continuar");
+                await App.Current.MainPage.DisplayAlert("Alert", "You must fill in the fields", "Ok");
             }
             else if (Password != ConfirmPassword)
             {
-                await App.Current.MainPage.DisplayAlert("Alert", "Las contraseñas deben ser iguales", "ok");
+                await App.Current.MainPage.DisplayAlert("Alert", "Passwords must be the same", "Ok");
             }
             else
             {
                 await App.Current.MainPage.Navigation.PushAsync(new Intec.xamaritanApp.ProfilePage());
-                await App.Current.MainPage.DisplayAlert("Bienvenido", "Hola " + Name, "ok");
+                await App.Current.MainPage.DisplayAlert("Welcome", "Hello " + Name, "Ok");
             }
         }
 
